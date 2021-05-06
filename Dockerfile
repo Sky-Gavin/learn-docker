@@ -2,7 +2,7 @@ FROM centos
 
 MAINTAINER leyi<875487008@qq.com>
 
-ENV MYPATH /usr/loca
+ENV MYPATH /usr/local
 WORKDIR $MYPATH
 
 RUN yum -y install vim
